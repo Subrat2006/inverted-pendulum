@@ -348,19 +348,23 @@ why each one is included:
 - Each clip shows PID, LQR, and RL side by side with a live time/angle/
   position readout, at the same 8.5-degree initial tilt used throughout
   Section 5.
+- Shown below as GIFs, since GitHub's README renderer strips `<video>` tags
+  (a security restriction, not specific to this repo) - GIFs render inline
+  reliably everywhere. The original `.mp4` files are also in `results/` if
+  you want the full-quality version.
 
 **Nominal (no disturbance):**
 
-<video src="results/simulation_video_nominal.mp4" controls width="700"></video>
+![Nominal simulation](results/simulation_video_nominal.gif)
 
 **Sustained disturbance** (+3N push at t = 3.0-3.5s — watch PID and LQR
 recover in real time, and compare against RL's behavior in the same window):
 
-<video src="results/simulation_video_sustained_disturbance.mp4" controls width="700"></video>
+![Sustained disturbance simulation](results/simulation_video_sustained_disturbance.gif)
 
-*(If the players above don't render for you, the files are at
-`results/simulation_video_nominal.mp4` and
-`results/simulation_video_sustained_disturbance.mp4` in this repo.)*
+Full-quality MP4 versions:
+[nominal](results/simulation_video_nominal.mp4) |
+[sustained disturbance](results/simulation_video_sustained_disturbance.mp4)
 
 ## 6. Discussion
 
