@@ -1,4 +1,4 @@
-# Subtask 4: Inverted Pendulum, PID vs LQR vs RL
+Inverted Pendulum, PID vs LQR vs RL
 
 ## 1. Problem statement
 
